@@ -1,6 +1,5 @@
 {
   "name": "devtree",
-  "type": "module",
   "version": "1.0.0",
   "description": "Primer proyecto con Express y Typescript",
   "license": "ISC",
