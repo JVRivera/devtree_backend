@@ -87,7 +87,7 @@ export const updateProfile = async (req:Request, res:Response) => {
 
         //actualizar usuario
         req.user.description=description
-        req.user.haldle=handle
+        req.user.handle=handle
         await req.user.save()
         res.send('Perfil actualizado correctamente.')
 
